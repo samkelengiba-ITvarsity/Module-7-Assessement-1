@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: lightslategray;
+    font-family: 'Ralemay', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    
+    color: #363636;
+}
+#log{
+    padding: 60px 0px 40px 0px;
+    background-color: #333333;
+    text-align: center;
+    
+}
+h2{
+    text-align: center;
+    color: #333333;
+}
+label{
+    color: aliceblue;
+}
+#message{
+    color: aliceblue;
+}
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
+input[type=text], textarea {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=password], textarea {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
